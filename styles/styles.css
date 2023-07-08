@@ -8,6 +8,7 @@ body {
 }
 .header-section {
     background-image: url('../images/banner/banner3.png');
+    background-size: cover;
     height: 100vh;
     color: #fff;
     /* background-repeat: no; */
@@ -35,6 +36,10 @@ body {
 .btn-primary {
     margin-right: 105px;
     margin-top: 25px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: none;
     padding: 15px;
     color: #005FAC;
     font-weight: 600;
@@ -44,12 +49,17 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 1200px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 .main-heading {
     width: 288px;
     font-size: 40px;
+}
+.main-container{
+    margin-top: 40px;
+    /* border: 2px solid; */
 }
 
 .main-description {
@@ -60,4 +70,54 @@ body {
 .main-list {
     margin-top: 20px;
     margin-left: 15px;
+}
+.myplans-heading h1{
+    text-align: center;
+    font-size: 40px;
+}
+.plans{
+    text-align: center;
+}
+.plans-img{
+    width: 60px;
+    height: 60px;
+}
+.plans-heading{
+    font-size: 20px;
+}
+.plans-description {
+    font-size: 15px;
+}
+.myplans-category{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.positive-container{
+    height: 300px;
+    padding: 55px;
+    
+}
+.positive{
+    background-image: url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 62%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+.positive-contents{
+    color: #fff;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(132, 158, 180, 0) 100%);
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-bottom: 75px;
 }
