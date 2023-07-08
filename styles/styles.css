@@ -19,8 +19,8 @@ body {
 
 .header-elements {
     /* border: 2px solid; */
-    padding-left: 845px;
-    padding-top: 216px;
+    padding-left: 750px;
+    padding-top: 180px;
     text-align: right;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .btn-primary {
-    margin-right: 105px;
+    margin-right: 70px;
     margin-top: 25px;
     border-radius: 5px;
     width: 160px;
@@ -142,13 +142,73 @@ body {
 .footer-container {
     background-color: #151414;
     /* width: 100px; */
-    height: 577px;
-    
+    height: 330px;
+
 }
+
 .footer-container {
     color: #fff;
     display: flex;
+
 }
 .footer-elements {
-    
+    width: 80%;
+}
+
+.footer-header {
+    margin-top: 35px;
+    margin-left: 250px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.footer-description {
+    width: 40%;
+    margin-left: 250px;
+    font-size: 13px;
+
+}
+
+.contact-address {
+    margin-top: 15px;
+    margin-left: 250px;
+
+}
+
+.footer-icon {
+    margin-left: 218px;
+    margin-top: 25px;
+}
+
+.icons {
+    margin-left: 25px;
+}
+.subscribe {
+
+    margin-right: 70px;
+}
+
+.subs-heading {
+    font-size: 20px;
+    margin-top: 38px;
+}
+
+.subs-input {
+    margin-top: 20px;
+    width: 325px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+    color: #FFF;
+
+}
+
+.btn-footer {
+    color: #FFF;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    background: #005FAC;
 }
