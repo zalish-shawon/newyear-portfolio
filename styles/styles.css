@@ -1,3 +1,4 @@
+        /* universal values setup */
 * {
     margin: 0;
     padding: 0;
@@ -7,18 +8,17 @@ body {
     font-family: 'Work Sans', sans-serif;
 
 }
-
+                /* header styles */
 .header-section {
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
     height: 100vh;
     color: #fff;
-    /* background-repeat: no; */
-    /* height: 808px; */
+    
 }
 
 .header-elements {
-    /* border: 2px solid; */
+    
     padding-left: 750px;
     padding-top: 180px;
     text-align: right;
@@ -36,7 +36,7 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
+            /* primary button styles */
 .btn-primary {
     margin-right: 70px;
     margin-top: 25px;
@@ -48,7 +48,7 @@ body {
     color: #005FAC;
     font-weight: 600;
 }
-
+                    /* main elements styles */
 .main-elements {
     display: flex;
     justify-content: space-around;
@@ -66,7 +66,7 @@ body {
 
 .main-container {
     margin-top: 40px;
-    /* border: 2px solid; */
+    
 }
 
 .main-description {
@@ -77,14 +77,15 @@ body {
 
 .main-list {
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 2px;
+    list-style: none;
 }
 
 .myplans-heading h1 {
     text-align: center;
     font-size: 40px;
 }
-
+                /* my plans style */
 .plans {
     text-align: center;
 }
@@ -110,7 +111,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+                /* positive background image styles */
 .positive-container {
     height: 300px;
     padding: 55px;
@@ -138,10 +139,9 @@ body {
     padding-left: 64px;
     padding-bottom: 75px;
 }
-
+            /* footer, icons and subscribe form styles */
 .footer-container {
     background-color: #151414;
-    /* width: 100px; */
     height: 330px;
 
 }
